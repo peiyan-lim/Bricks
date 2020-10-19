@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\peiya\\source\\repos\\BricksMeatballs\\BricksMeatballs\\BricksMeatballs.csproj": {}
+    "C:\\Users\\Sripriya\\Source\\Repos\\Bricks\\BricksMeatballs\\BricksMeatballs\\BricksMeatballs.csproj": {}
   },
   "projects": {
-    "C:\\Users\\peiya\\source\\repos\\BricksMeatballs\\BricksMeatballs\\BricksMeatballs.csproj": {
+    "C:\\Users\\Sripriya\\Source\\Repos\\Bricks\\BricksMeatballs\\BricksMeatballs\\BricksMeatballs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\peiya\\source\\repos\\BricksMeatballs\\BricksMeatballs\\BricksMeatballs.csproj",
+        "projectUniqueName": "C:\\Users\\Sripriya\\Source\\Repos\\Bricks\\BricksMeatballs\\BricksMeatballs\\BricksMeatballs.csproj",
         "projectName": "BricksMeatballs",
-        "projectPath": "C:\\Users\\peiya\\source\\repos\\BricksMeatballs\\BricksMeatballs\\BricksMeatballs.csproj",
-        "packagesPath": "C:\\Users\\peiya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\peiya\\source\\repos\\BricksMeatballs\\BricksMeatballs\\obj\\",
+        "projectPath": "C:\\Users\\Sripriya\\Source\\Repos\\Bricks\\BricksMeatballs\\BricksMeatballs\\BricksMeatballs.csproj",
+        "packagesPath": "C:\\Users\\Sripriya\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sripriya\\Source\\Repos\\Bricks\\BricksMeatballs\\BricksMeatballs\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\peiya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Sripriya\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -37,6 +37,26 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
